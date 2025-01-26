@@ -21,6 +21,12 @@
         </td>
         </tr>
         <tr class="confirm-table__row">
+            <th class="confirm-table__header">性別</th>
+            <td class="confirm-table__text">
+            <input type="gender" name="gender" value="{{ $contact['gender'] }}" readonly />
+        </td>
+        </tr>
+        <tr class="confirm-table__row">
             <th class="confirm-table__header">メールアドレス</th>
             <td class="confirm-table__text">
             <input type="email" name="email" value="{{ $contact['email'] }}" readonly />
@@ -30,6 +36,18 @@
             <th class="confirm-table__header">電話番号</th>
             <td class="confirm-table__text">
             <input type="tel" name="tel" value="{{ $contact['tel'] }}" readonly />
+        </td>
+        </tr>
+        <tr class="confirm-table__row">
+            <th class="confirm-table__header">住所</th>
+            <td class="confirm-table__text">
+            <input type="adress" name="adress" value="{{ $contact['adress'] }}" readonly />
+        </td>
+        </tr>
+        <tr class="confirm-table__row">
+            <th class="confirm-table__header">建物</th>
+            <td class="confirm-table__text">
+            <input type="building" name="building" value="{{ $contact['building'] }}" readonly />
         </td>
         </tr>
         <tr class="confirm-table__row">
