@@ -20,5 +20,5 @@
 - git version 2.43.0
 
 ## URL
-- 開発環境：http://localhost/
-- phpMyAdmin:http://localhost/8080/
+- 開発環境：http://localhost:3000/
+- phpMyAdmin:http://localhost:8080/
