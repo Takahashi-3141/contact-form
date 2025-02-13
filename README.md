@@ -11,7 +11,7 @@
   2. composer install
   3. cp .env.example .env
   4. php artisan key:generate
-  . php artisan migrate
+  5. php artisan migrate
       
 
 ## 使用技術(実行環境)
