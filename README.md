@@ -3,6 +3,7 @@
 ## 環境構築
 - Dockerのビルド
 - git clone git@github.com:Takahashi-3141/contact-form.git
+- cd contact-form
 - docker-compose up -d
 
 - Laravel環境構築
