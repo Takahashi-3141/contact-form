@@ -2,7 +2,7 @@
 
 ## 環境構築
 - Dockerのビルド
-- git clone git@github.com:coachtech-material/laravel-docker-template.git
+- git clone git@github.com:Takahashi-3141/contact-form.git
 - docker-compose up -d
 
 - Laravel環境構築
